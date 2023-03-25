@@ -116,12 +116,6 @@ form li {
   color: #7f8cff;
 }
 
-.home ul {
-  list-style: none;
-  display: flex;
-  padding-left: 0px;
-}
-
 .home li {
   padding-right: 20px;
 }
@@ -130,6 +124,12 @@ form > ul {
   list-style: none;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.home ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
 }
 
 .home > ul {
@@ -159,7 +159,7 @@ form > ul {
   padding: 15px 5px 15px 15px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  width:90 %;
+  width: 90 %;
   margin: auto;
 }
 
@@ -902,4 +902,3 @@ hr {
     cursor: pointer;
   }
 }
-
