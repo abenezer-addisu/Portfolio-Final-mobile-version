@@ -121,12 +121,16 @@ form li {
   padding-right: 20px;
 }
 
-.home ul {
+form > ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.home > ul {
   list-style: none;
   display: flex;
   padding-left: 0;
 }
-
 
 .work {
   display: grid;
@@ -188,12 +192,11 @@ h2 {
   margin-bottom: 0;
 }
 
-.categories ul {
+.categories > ul {
   display: flex;
   list-style: none;
   padding-left: 0;
 }
-
 
 .work-button {
   box-sizing: border-box;
@@ -229,7 +232,7 @@ h2 {
   color: #396df2;
 }
 
-.work-content ul {
+.work-content > ul {
   display: inline-flex;
   padding-left: 0;
   color: #7a869a;
@@ -239,23 +242,17 @@ h2 {
   margin-left: 2em;
 }
 
-button:hover {
-  background-color: #202dc2;
-  color: #fff;
-  cursor: pointer;
-}
-
 #popupbutton {
   display: flex;
   justify-content: start;
   gap: 2em;
 }
 
-.about-content li {
+.about-content > ul > li {
   padding-left: 8px;
 }
 
-.categories li {
+.categories > ul > li {
   align-items: center;
   background-color: #ebebff;
   border-radius: 8px;
@@ -263,7 +260,6 @@ button:hover {
   margin-right: 8px;
   color: #6070ff;
 }
-
 
 .about-myself {
   display: flex;
@@ -294,7 +290,7 @@ button:hover {
   padding: 0;
 }
 
-.about-content ul {
+.about-content > ul {
   list-style: none;
   display: flex;
   padding-left: 0;
@@ -381,7 +377,7 @@ button:hover {
   flex-direction: column;
 }
 
-.languages-list ul {
+.languages-list > ul {
   list-style: none;
   padding-left: 15px;
 }
@@ -457,13 +453,11 @@ button:hover {
   width: 15px;
 }
 
-
 .connect {
   color: #7f8cff;
 }
 
-
-.languages-list li {
+.languages-list > ul > li {
   display: flex;
   background: #f7f7f9;
   border-radius: 8px;
@@ -473,13 +467,7 @@ button:hover {
   height: 66.72px;
 }
 
-form ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-
-form button {
+form > button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -498,6 +486,11 @@ form button {
   border: none;
 }
 
+button:hover {
+  background-color: #202dc2;
+  color: #fff;
+  cursor: pointer;
+}
 
 .form-container {
   background-color: white;
@@ -611,7 +604,6 @@ hr {
 #form-error.active {
   color: red;
 }
-
 
 @media screen and (max-width: 768px) {
   #home {
