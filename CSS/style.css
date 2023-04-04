@@ -544,6 +544,33 @@ form {
   justify-content: center;
   align-items: center;
 }
+.form-des p {
+  width: 250px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-des h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  margin-top: 103px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 #user-name,
 #email-address {
