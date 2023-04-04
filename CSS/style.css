@@ -321,6 +321,30 @@ h2 {
   text-align: center;
 }
 
+.form-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  margin-top: 21px;
+  background-color: white;
+  width: 125px;
+  height: 44px;
+  border: 0px solid #6070ff;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  text-align: center;
+}
+
+li.btn {
+  padding-left: 65px;
+}
+
+
 .textandlinks {
   display: flex;
 }
@@ -518,33 +542,6 @@ button:hover {
 }
 
 .form-des p {
-  width: 327px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.form-des h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #fff;
-  margin-top: 103px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.form-des p {
   width: 250px;
   font-weight: 400;
   font-size: 16px;
@@ -574,7 +571,7 @@ form {
 
 #user-name,
 #email-address {
-  width: 327px;
+  width: 250px;
   height: 48px;
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -596,7 +593,7 @@ form {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  width: 327px;
+  width: 250px;
   height: 170px;
   padding: 18px 0 0 17px;
 }
