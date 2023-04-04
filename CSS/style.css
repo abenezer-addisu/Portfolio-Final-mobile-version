@@ -321,6 +321,25 @@ h2 {
   text-align: center;
 }
 
+.form-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  margin-top: 21px;
+  background-color: white;
+  width: 125px;
+  height: 44px;
+  border: 0 solid #6070ff;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  text-align: center;
+}
+
 .textandlinks {
   display: flex;
 }
@@ -518,9 +537,9 @@ button:hover {
 }
 
 .form-des p {
-  width: 327px;
+  width: 250px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
@@ -547,7 +566,7 @@ form {
 
 #user-name,
 #email-address {
-  width: 327px;
+  width: 250px;
   height: 48px;
   background: #fff;
   border: 1px solid #cfd8dc;
@@ -569,7 +588,7 @@ form {
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  width: 327px;
+  width: 250px;
   height: 170px;
   padding: 18px 0 0 17px;
 }
