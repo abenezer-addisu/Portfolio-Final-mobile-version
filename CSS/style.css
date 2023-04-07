@@ -106,13 +106,13 @@ form li {
   width: 270px;
   font-size: 20px;
 }
+
 /* .connect p {
   color: #7f8cff;
 } */
 
-.home h4{
+.home h4 {
   color: #7f8cff;
-  
 }
 
 .home-content {
@@ -122,7 +122,6 @@ form li {
 .home-content p {
   color: #172b4d;
 }
-
 
 .home li {
   padding-right: 20px;
@@ -278,9 +277,8 @@ h2 {
 .about-myself {
   display: flex;
   flex-direction: column;
-  
-  padding: 114px 7px 114PX 90PX;
-  gap: 0PX;
+  padding: 114px 7px 114px 90px;
+  gap: 0;
   background-color: white;
   border-top-right-radius: 80px;
 }
@@ -303,6 +301,7 @@ h2 {
   color: #344563;
   margin: 0;
   padding: 0;
+
   /* height: 146px;
     width: 45%;
     margin-left: 50%;
@@ -333,8 +332,6 @@ h2 {
   color: #396df2;
   text-align: center;
 }
-
-
 
 .form-button {
   display: flex;
@@ -414,11 +411,8 @@ h2 {
 
 .languages-list {
   display: flex;
-  flex-direction: column;    
+  flex-direction: column;
   width: 40%;
-
-
-
 }
 
 .languages-list > ul {
@@ -729,8 +723,6 @@ hr {
     padding-top: 117px;
   }
 
-
-
   .buttonmob {
     position: fixed;
     top: 35%;
@@ -814,7 +806,6 @@ hr {
     text-align: left;
     border-bottom-left-radius: 130px;
     background-color: #fff;
-    
   }
 }
 
@@ -854,19 +845,36 @@ hr {
     width: 73%;
   }
 
+  .languages-list li {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .languages-list ul {
+    display: flex;
+    flex-direction: row;
+  }
+
   .languages-list > ul > li {
     display: flex;
+
     /* background: #f7f7f9; */
     border-radius: 8px;
     margin-bottom: 12px;
     margin-top: 21px;
-    width: 120PX;
+    width: 120px;
     height: 112px;
-}
+  }
 
-.languages-list p {
-  font-size: 17px;
-}
+  .languages-list p {
+    font-size: 17px;
+  }
 
   .contact {
     display: flex;
@@ -884,7 +892,7 @@ hr {
   .descr {
     display: flex;
     flex-direction: column;
-    width:30%;
+    width: 30%;
     padding-left: 450px;
   }
 
@@ -973,14 +981,11 @@ hr {
     border-color: #091e42;
   }
 
-
   .submit:active {
     background-color: #091e42;
     color: white;
     border-color: #2230d2;
   }
-
-
 
   .hamburger {
     display: none;
@@ -1038,26 +1043,11 @@ hr {
     margin-right: 37px;
     margin-left: 80px;
   }
-  
-.aboutme {
-  width: 50%;
+
+  .aboutme {
+    width: 50%;
     margin-right: 37px;
     margin-left: 80px;
-}
-  .languages-list li {
-    display: flex;
-    flex-direction: column;
-    width: 122px;
-    height: 120px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-right: 20px;
-  }
-
-  .languages-list ul {
-    display: flex;
-    flex-direction: row;
   }
 
   .form-des p {
