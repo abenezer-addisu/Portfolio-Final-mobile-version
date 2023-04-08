@@ -1113,8 +1113,8 @@ hr {
   .grid-item {
     box-sizing: border-box;
     display: flex;
+    background-position-x: 15px;
 
-    /* flex-direction: column;     */
     flex-direction: row;
     background-color: white;
     padding: 15px 5px 15px 15px;
