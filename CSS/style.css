@@ -1432,7 +1432,7 @@ hr {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 22px;
     text-align: center;
     color: #fff;
   }
@@ -1521,6 +1521,7 @@ hr {
     width: 50%;
     margin-right: 20px;
     margin-left: 6px;
+
   }
 
   .nav-link1,
