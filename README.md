@@ -64,8 +64,7 @@ I find the following features to be intresting:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-    [Click here for live demo] 
-    https://abenezer-addisu.github.io/Portfolio-version/
+    - [Live Demo Link](https://abenezer-addisu.github.io/Portfolio-version/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
