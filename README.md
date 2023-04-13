@@ -61,10 +61,9 @@ I find the following features to be intresting:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-    
+- [Live Demo Link](https://abenezer-addisu.github.io/Portfolio-version/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
