@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+      <!-- Material Icon CDN -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2b95109ad7.js" crossorigin="anonymous"></script>
     <title>Abenezer Addisu</title>
 </head>
@@ -18,14 +21,7 @@
     
             <nav>
     
-                <ul class="nav-ul">
-    
-                    <li class="crosshairs">
-                        <a href="" class="nav-link1">
-                            <img src="./img/free_icon_1.svg" alt="cross icon">
-                        </a>
-                    </li>
-    
+                <!-- <ul class="nav-ul">
                     <li>
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
@@ -35,16 +31,24 @@
                     <li>
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
-                    <li class="bottomline">
-                        <a href=""> <img src="./img/Shape.png" alt="bottom icon" class="nav-link2"></a>
+                </ul> -->
+
+                    <!-- material icons CDN in the head section, see the html settings 👆-->
+                <ul class="menu nav-ul" style="margin-top: 0px;padding-left: 70px;padding-top: 51px;">
+                    <li class="crosshairs"><a href="" class="nav-link1">
+                            <img src="./img/free_icon_1.svg" alt="cross icon"></a>
                     </li>
-    
+                    <li><a class="menuItem" class="nav-link href="#">portfolio</a></li>
+                    <li><a class="menuItem" class="nav-link href="#">About</a></li>
+                    <li><a class="menuItem" class="nav-link href="#">Contacts</a></li>
+                    <!-- <li class="bottomline"> <a href=""> <img src="./img/Shape.png" alt="bottom icon" class="nav-link2"></a> -->
+                    </li>
                 </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+                <button class="hamburger">
+                    <!-- material icons https://material.io/resources/icons/ -->
+                    <i class="menuIcon material-icons">menu</i>
+                    <!-- <i class="closeIcon material-icons">close</i> -->
+                </button>
     
     
             </nav>
@@ -59,7 +63,7 @@
                     I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
                 </p>
     
-                <h4 class="connect">LET'S CONNECT</h4>
+                <h2 class="connect">LET'S CONNECT</h2>
                 <ul class="socialmedia">
                     <li> <a href="#"><img src="img/twitter.png" alt="Twitter Icon"></a></li>
                     <li> <a href="#"><img src="img/messager.png" alt="messages icon"></a> </li>
@@ -212,7 +216,7 @@
                     <p class="about-content-p">
                         Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
                     </p>
-                    <h4 class="connect">LET'S CONNECT</h4>
+                    <h2 class="connect">LET'S CONNECT</h2>
                     <ul class="socialmedia">
                         <li>
                             <a href="twitter.com"><img src="img/twitter.png" alt="twitter icon"></a>
@@ -318,6 +322,7 @@
             </div>
         </section>
     
+        <script src="/script.js"></script>
 
 
 </body>

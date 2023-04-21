@@ -671,6 +671,7 @@ h2 {
 
 .connect {
   color: #7f8cff;
+  font-size: medium;
 }
 
 .languages-list > ul > li {
@@ -925,7 +926,7 @@ hr {
     gap: 1rem;
     flex-direction: column;
     background-color: #6070ff;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
     mix-blend-mode: multiply;
     height: 100%;
     width: 100%;
@@ -936,7 +937,7 @@ hr {
   }
 
   .nav-ul a {
-    margin: 1px 10px 0 -228px;
+    margin: 1px 10px 0 -248px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -958,7 +959,7 @@ hr {
   }
 
   .nav-link1 > img {
-    width: 1em;
+    width: 0.8em;
   }
 
   .nav-link2 > img {
@@ -969,10 +970,51 @@ hr {
     margin: 0% 0% -572% -365%;
   }
 
-  .hamburger {
+  .menuItem {
     display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+
+  .hamburger {
+    position: static;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 0;
+    background: white;
     cursor: pointer;
-    margin: 0 19px 0 0;
+    margin-right: 16px;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #6070ff;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
   }
 
   .nav-ul.active {
@@ -1502,9 +1544,6 @@ hr {
 
   .hamburger {
     display: none;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
   }
 
   .buttonmob {
