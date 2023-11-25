@@ -230,6 +230,20 @@ h2 {
   color: #396df2;
 }
 
+.work-button > a {
+  text-decoration: none;
+}
+
+.work-button > a:hover {
+  text-decoration: none;
+  color: honeydew
+}
+
+/* .btn-style {
+  te
+} */
+
+
 .work-button1 {
   box-sizing: border-box;
   background-color: white;
@@ -333,6 +347,16 @@ h2 {
   line-height: 24px;
   color: #396df2;
   text-align: center;
+  text-decoration: none;
+}
+.my-button > a {
+  text-decoration: none;
+  
+}
+
+.my-button > a:hover {
+  
+  color: honeydew
 }
 
 .form-button {
@@ -1571,4 +1595,9 @@ hr {
     color: #2230d2;
     cursor: pointer;
   }
+}
+
+.img-size {
+  margin-top: 80px;
+  width: 500px;
 }
